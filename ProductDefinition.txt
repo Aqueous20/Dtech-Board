@@ -1,0 +1,68 @@
+# PulseBoard — Product Definition
+
+## 1. Overview
+PulseBoard is a real-time analytics dashboard for startups and product teams
+to track user behavior, events, and product performance in a simple,
+lightweight interface.
+
+The goal is to provide core insights similar to tools like Mixpanel or
+Amplitude, but in a simplified, developer-friendly way.
+
+---
+
+## 2. Problem Statement
+Early-stage startups often lack visibility into how users interact with
+their product. Existing analytics tools are either too expensive,
+overly complex, or difficult to customize.
+
+PulseBoard solves this by offering:
+- simple event tracking
+- real-time user activity
+- basic funnel analysis
+- clear data visualizations
+
+---
+
+## 3. Target Users
+- Startup founders
+- Product managers
+- Growth engineers
+- Indie hackers
+
+---
+
+## 4. Core Features (MVP)
+These features define the first usable version of PulseBoard.
+
+- User authentication
+- Event tracking API
+- Live active users counter
+- Events per day chart
+- Date range filtering
+- Funnel creation and analysis
+
+---
+
+## 5. User Stories
+As a product manager, I want to see how many users signed up today.
+As a founder, I want to track which features are used most.
+As a growth engineer, I want to measure conversion between steps.
+
+---
+
+## 6. Non-Goals (for MVP)
+These are explicitly out of scope for the first version.
+
+- Billing and subscriptions
+- Team collaboration
+- Alerts and notifications
+- Mobile app
+
+---
+
+## 7. Success Metrics
+PulseBoard is considered successful if:
+- events are tracked in real time
+- dashboards load under 1 second
+- funnels show accurate conversion rates
+- system supports at least 10k events/day
